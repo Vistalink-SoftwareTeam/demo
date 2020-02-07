@@ -69,6 +69,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="messageSourceBase.cs" />
+    <Compile Include="messageSourceDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
