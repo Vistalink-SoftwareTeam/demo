@@ -11,6 +11,9 @@ namespace WpfApp1
 
         private IList<messageSourceBase> messageSources = new List<messageSourceBase>();
 
+        /// <summary>
+        /// Main entry point of the WpfApp1
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
