@@ -23,11 +23,19 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            this.myLabel.Content = null;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.myLabel.Content = "Hello world" ;
+            if ( this.myLabel.Content == null )
+            {
+                this.myLabel.Content = "Hello world";
+            }
+            else {
+                this.myLabel.Content = null;
+            }
+
         }
     }
 }
