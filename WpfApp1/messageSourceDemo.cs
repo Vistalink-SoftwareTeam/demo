@@ -6,7 +6,7 @@ namespace WpfApp1
     {
         public override String GetMessage()
         {
-            return "from demo";
+            return "from den Aldi";
         }
     }
 }
